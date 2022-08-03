@@ -20,10 +20,7 @@ function LoginScreen() {
 					src='./images/netflix-logo-transparent.png'
 					alt=''
 				/>
-				<button
-					oncClick={() => setSignIn(true)}
-					className='loginScreen__button'
-				>
+				<button onClick={() => setSignIn(true)} className='loginScreen__button'>
 					Sign In
 				</button>
 
@@ -42,7 +39,7 @@ function LoginScreen() {
 									<input type='email' placeholder='Email Address' />
 									<button
 										onClick={() => setSignIn(true)}
-										class='loginScreen__getStarted'
+										className='loginScreen__getStarted'
 									>
 										Get started
 									</button>
